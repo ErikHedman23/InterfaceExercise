@@ -16,5 +16,9 @@ namespace InterfaceExercise
         public string Color { get ; set ; }
         public string Logo { get ; set ; }
         public string luxuryModel { get ; set ; }
+        public void OtherTruckDetails ()
+        {
+            Console.WriteLine($" This {Make} {Model} is a {hemiOrDiesel}.  That's {hasExtendedCab} it does indeed have an extended cab, and it features that lovely {Logo} logo in the front.");
+        }
     }
 }

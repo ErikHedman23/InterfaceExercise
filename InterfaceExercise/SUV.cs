@@ -16,5 +16,9 @@ namespace InterfaceExercise
     public string Color { get;  set; }
     public string Logo { get ; set ; }
     public string luxuryModel { get ; set; }
+        public void OtherSUVDetails()
+        {
+            Console.WriteLine($"This {Make} {Model} has {numOfSeats} seats in it!  That's {isFullSize} it is a full size suv, and look at that sweet {Logo} logo up front!");
+        }
 }
 }

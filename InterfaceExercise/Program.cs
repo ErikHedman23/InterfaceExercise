@@ -89,6 +89,9 @@ namespace InterfaceExercise
             vehicles.Add(truck);
             addCar++;
             Console.WriteLine($"You have a total number of {addCar} vehicles in your garage.");
+            car.OtherCarDetails();
+            truck.OtherTruckDetails();
+            suv.OtherSUVDetails();
             foreach (IVehicle vehicle in vehicles)
             {
                 Console.WriteLine($"{vehicle.Year}\n{vehicle.Make}\n{vehicle.Model}\n{vehicle.Color}\n\n\n");

@@ -16,6 +16,9 @@ namespace InterfaceExercise
         public string Color { get ; set ; }
         public string Logo { get ; set ; }
         public string luxuryModel { get ; set ; }
-        
+        public void OtherCarDetails()
+        {
+            Console.WriteLine($"This {Make} {Model} also has a {Logo} logo, and, yes thats {hasNewTires} it does have new tires!");
+        }
     }
 }
