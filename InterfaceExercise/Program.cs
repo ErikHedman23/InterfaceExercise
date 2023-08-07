@@ -92,7 +92,7 @@ namespace InterfaceExercise
             car.OtherCarDetails();
             truck.OtherTruckDetails();
             suv.OtherSUVDetails();
-            foreach (IVehicle vehicle in vehicles)
+            foreach (IVehicle vehicle in vehicles) //can also create an if else statement asking if(vehicle 'is' Car) then you give it the console.writeline to display what you want.  is asks if this is of type that
             {
                 Console.WriteLine($"{vehicle.Year}\n{vehicle.Make}\n{vehicle.Model}\n{vehicle.Color}\n\n\n");
             }
